@@ -21,6 +21,8 @@ addWater
 insertKCup
 addCoffeeMug
 makeCoffeeCup
+addSugar
+addCreamer
 
 Functions
 -Insert KCUP
@@ -28,8 +30,12 @@ Functions
 -Brew Cup
 -Add Sugar/Creamer
 
+User is wanting to make a cup of coffee.  User confirms power is on. User inserts KCUP.  User adds CoffeeMug.  User makes CoffeeCup. User decides to addSugar or not.  User decides to addCreamer or not.  User enjoys Coffee or not.
+
 Steps
 1. Turn machine on
+    if machine = off
+    user submits "on"
 2. Add Water
     If water < minimum
         add water
@@ -58,7 +64,7 @@ Steps
         print oz = 12
         else if you want 6oz
         print oz = 6
-6. Hit Brew Coffee
+6. Initiate Brew Coffee
 7. Add Sugar
     If sugar = false (0)
     Skip
