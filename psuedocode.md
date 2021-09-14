@@ -1,15 +1,25 @@
+#Making Cup of Coffee - Kuerig
+
 Start
 
 Variables
--Kuerig
--Pod
--Cup
--Cream
--Sugar
--Power
--Water
+*Kuerig
+*Pod
+*Cup
+*Cream
+*Sugar
+*Power
+*Water
+*User
+
+INIT
 
 Program
+turnCoffeeOn
+userPresent
+addWater
+insertKCup
+addCoffeeMug
 makeCoffeeCup
 
 Functions
@@ -29,7 +39,7 @@ Steps
     if KCUP = 1
     Discard
     Replace with new KCUP
-4. Place Cup Under Coffee Output/Machine
+4. Place Mug Under Coffee Output/Machine
 5. Set size (array of ounces) -- possible add of increment/decrement
     a.  INPUT ounces
         case ounces of 
@@ -67,7 +77,10 @@ Steps
 End
 
 --Possible additions
-    -Boolean Coffee
-        -If Coffee == false (not like it)
-         return zero (end process)
+    -Boolean 
+        -Coffee
+            -If Coffee == false (not like it)
+            return zero (end process)
+        -Power
+            - on = true; off = false;
     
