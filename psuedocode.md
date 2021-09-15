@@ -3,14 +3,14 @@
 ## Start
 
 ### Variables
-*Kuerig
-*Pod
-*Cup
-*Cream
-*Sugar
-*Power
-*Water
-*User
+* Kuerig
+* Pod
+* Cup
+* Cream
+* Sugar
+* Power
+* Water
+* User
 
 ### INIT
 
@@ -82,11 +82,11 @@ User is wanting to make a cup of coffee.  User confirms power is on. User insert
 
 ### End
 
---Possible additions
-    -Boolean 
-        -Coffee
-            -If Coffee == false (not like it)
+1. Possible additions
+    * Boolean 
+         * Coffee
+             * If Coffee == false (not like it)
             return zero (end process)
-        -Power
-            - on = true; off = false;
+        * Power
+            * on = true; off = false;
     
