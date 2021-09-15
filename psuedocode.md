@@ -108,4 +108,7 @@
             return zero (end process)
         * Power
             * on = true; off = false;
+    * Add Clean Function
+        * if makeCoffeeCup > (num) THEN clean machine 
+        
     
