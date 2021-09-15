@@ -1,8 +1,8 @@
-#Making Cup of Coffee - Kuerig
+# Making Cup of Coffee - Kuerig
 
-Start
+## Start
 
-Variables
+### Variables
 *Kuerig
 *Pod
 *Cup
@@ -12,9 +12,9 @@ Variables
 *Water
 *User
 
-INIT
+### INIT
 
-Program
+### Program
 turnCoffeeOn
 userPresent
 addWater
@@ -24,7 +24,7 @@ makeCoffeeCup
 addSugar
 addCreamer
 
-Functions
+### Functions
 -Insert KCUP
 -Set size
 -Brew Cup
@@ -32,7 +32,7 @@ Functions
 
 User is wanting to make a cup of coffee.  User confirms power is on. User inserts KCUP.  User adds CoffeeMug.  User makes CoffeeCup. User decides to addSugar or not.  User decides to addCreamer or not.  User enjoys Coffee or not.
 
-Steps
+### Steps
 1. Turn machine on
     if machine = off
     user submits "on"
@@ -80,7 +80,7 @@ Steps
     if not enjoyed
     Repeat from step 2
 
-End
+### End
 
 --Possible additions
     -Boolean 
