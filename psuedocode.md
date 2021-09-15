@@ -15,20 +15,20 @@
 ### INIT
 
 ### Program
-turnCoffeeOn
-userPresent
-addWater
-insertKCup
-addCoffeeMug
-makeCoffeeCup
-addSugar
-addCreamer
+* turnCoffeeOn
+* userPresent
+* addWater
+* insertKCup
+* addCoffeeMug
+* makeCoffeeCup
+* addSugar
+* addCreamer
 
 ### Functions
--Insert KCUP
--Set size
--Brew Cup
--Add Sugar/Creamer
+* Insert KCUP
+* Set size
+* Brew Cup
+* Add Sugar/Creamer
 
 User is wanting to make a cup of coffee.  User confirms power is on. User inserts KCUP.  User adds CoffeeMug.  User makes CoffeeCup. User decides to addSugar or not.  User decides to addCreamer or not.  User enjoys Coffee or not.
 
