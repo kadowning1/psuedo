@@ -1,5 +1,7 @@
 # Making Cup of Coffee - Kuerig
 
+![Kuerig](img/61mvHSJXauL._AC_SL1126_.jpg)
+
 ## Start
 
 ### Variables
