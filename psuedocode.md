@@ -53,60 +53,60 @@
 
 ### Steps
 1. Turn machine on - turnCoffeeOn
-    if machine = off
-    user submits "on"
+    * if machine = off
+    * user submits "on"
 2. Add Water -addWater
-    If water < minimum
-        add water
-    Else if water === max
-        alert User
-    else cup >= 2
-        add water < maximum
+    * If water < minimum
+        * add water
+    * Else if water === max
+        * alert User
+    * else cup >= 2
+        * add water < maximum
 3. Insert new KCUP - insertKCup
-    if KCUP = 1
-    Discard
-    Replace with new KCUP
+    * if KCUP = 1
+        * Discard
+    * Replace with new KCUP
 4. Place Mug Under Coffee Output/Machine - addCoffeeMug
 5. Display alerts "Ready to Brew"
 6. Set size (array of ounces) -- possible add of increment/decrement. 
-    a.  INPUT ounces
-        case ounces of 
-        6: PRINT "6oz"
-        8: PRINT "8oz"
-        10: PRINT "10oz"
-        12: PRINT "12oz"
-        ENDCASE
+    * INPUT ounces
+        
+        * 6: PRINT "6oz"
+        * 8: PRINT "8oz"
+        * 10: PRINT "10oz"
+        * 12: PRINT "12oz"
+        
 
-    b.
-        If you want 8oz
-        print oz = 8
-        Else if you want 10oz
-        print oz = 10
-        else if you want 12 oz
-        print oz = 12
-        else if you want 6oz
-        print oz = 6
+    * 
+        * If you want 8oz
+            * print oz = 8
+        * Else if you want 10oz
+            * print oz = 10
+        * else if you want 12 oz
+            * print oz = 12
+        * else if you want 6oz
+            * print oz = 6
 7. Initiate Brew Coffee -makeCoffeeCup
 8. Alert User "Machine Hot, Do Not Interupt!"
 9. Machine dispenses ozs from #5 array
 10. Add Sugar -addSugar
-    If sugar = false (0)
-    Skip
-    If sugar = true (>= 1)
-    Add Sugar (Amount)
+    * If sugar = false (0)
+        * Skip/End
+    * If sugar = true (>= 1)
+        * Add Sugar (Amount)
 11. Add Creamer - addCreamer
-    if creamer = false (0)
-    Skip
-    if creamer = true (>= 1)
-    add Creamer (amount)
+    * If creamer = false (0)
+        * Skip/End
+    * If creamer = true (>= 1)
+        * Add Creamer (amount)
 12. Stir Coffee
-    if all contents added 
-    then stir coffee
+    * if all contents added 
+        * then stir coffee
 13. Enjoy Coffee
-    IF not enjoyed
-    Repeat from step 2
-    ELSE
-    end program
+    * IF not enjoyed
+        * Repeat from step 2
+    * ELSE
+        * end program
 14. User turns off coffee machine - turnCoffeeOff
 
 ### End
