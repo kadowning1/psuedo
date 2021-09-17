@@ -77,7 +77,7 @@
         * 12: PRINT "12oz"
         
 
-    * 
+    * Default Option
         * If you want 8oz
             * print oz = 8
         * Else if you want 10oz
