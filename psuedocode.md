@@ -11,6 +11,8 @@
 ### Objects
 * User
 * Machine
+* Display
+    * Array of Ounces to tell Machine how much to dispense
 
 
 ### Variables for Machine
@@ -39,6 +41,7 @@
 * makeCoffeeCup
 * addSugar
 * addCreamer
+* turnCoffeeOff
 
 ### Functions
 * Confirm user is present
@@ -55,14 +58,17 @@
 2. Add Water -addWater
     If water < minimum
         add water
-    else if cup >= 2
-        add water = maximum
+    Else if water === max
+        alert User
+    else cup >= 2
+        add water < maximum
 3. Insert new KCUP - insertKCup
     if KCUP = 1
     Discard
     Replace with new KCUP
 4. Place Mug Under Coffee Output/Machine - addCoffeeMug
-5. Set size (array of ounces) -- possible add of increment/decrement. 
+5. Display alerts "Ready to Brew"
+6. Set size (array of ounces) -- possible add of increment/decrement. 
     a.  INPUT ounces
         case ounces of 
         6: PRINT "6oz"
@@ -80,24 +86,28 @@
         print oz = 12
         else if you want 6oz
         print oz = 6
-6. Initiate Brew Coffee -makeCoffeeCup
-7. Machine dispenses ozs from #5 array
-8. Add Sugar -addSugar
+7. Initiate Brew Coffee -makeCoffeeCup
+8. Alert User "Machine Hot, Do Not Interupt!"
+9. Machine dispenses ozs from #5 array
+10. Add Sugar -addSugar
     If sugar = false (0)
     Skip
     If sugar = true (>= 1)
     Add Sugar (Amount)
-9. Add Creamer - addCreamer
+11. Add Creamer - addCreamer
     if creamer = false (0)
     Skip
     if creamer = true (>= 1)
     add Creamer (amount)
-10. Stir Coffee
+12. Stir Coffee
     if all contents added 
     then stir coffee
-11. Enjoy Coffee
-    if not enjoyed
-    Repeat from step 2 OR end program
+13. Enjoy Coffee
+    IF not enjoyed
+    Repeat from step 2
+    ELSE
+    end program
+14. User turns off coffee machine - turnCoffeeOff
 
 ### End
 
@@ -110,5 +120,6 @@
             * on = true; off = false;
     * Add Clean Function
         * if makeCoffeeCup > (num) THEN clean machine 
+    * Heating Element
         
     
