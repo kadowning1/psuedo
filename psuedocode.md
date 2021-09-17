@@ -4,7 +4,7 @@
 
 ## Start
 
->>Functionality - User is wanting to make a cup of coffee.  User confirms power is on. User inserts KCUP.  User adds CoffeeMug.  User makes CoffeeCup. User decides to addSugar or not.  User decides to addCreamer or not.  User enjoys Coffee or not.
+>>Functionality - User is wanting to make a cup of coffee.  User confirms power is on. Machine heats water.  User confirms water level . User inserts KCUP.  User adds CoffeeMug.  User makes CoffeeCup. User decides to addSugar or not.  User decides to addCreamer or not.  User enjoys Coffee or not.
 
 ## Object/Data Structures
 
@@ -121,5 +121,8 @@
     * Add Clean Function
         * if makeCoffeeCup > (num) THEN clean machine 
     * Heating Element
+        * if (Machine = on)
+            * Start Heating Element
+    * Choosing your KCUP Pod
         
     
